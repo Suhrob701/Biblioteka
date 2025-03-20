@@ -1,0 +1,75 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Umumiy sahifa uslubi */
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Asosiy konteyner */
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: auto;
+}
+
+/* Sarlavha */
+h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+/* Input maydonlari */
+input {
+    width: calc(100% - 20px);
+    margin: 10px 0;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+}
+
+/* Rang tanlash tugmalari */
+input[type="color"] {
+    width: 50px;
+    height: 40px;
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+/* Tugma uslubi */
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* QR kod konteyneri */
+#qrcode {
+    margin-top: 20px;
+    padding: 10px;
+    background: #fff;
+    display: inline-block;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
